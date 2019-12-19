@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import Container from "./Components/Container";
+import Capitol from "./Components/Capitol";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Container>
+      <div className="city">
+        <Capitol />
+      </div>
+    </Container>
   );
 }
 
